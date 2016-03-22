@@ -1,7 +1,25 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
 <!-- Importing JQuery Library for usage -->
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"
 		integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="
 		crossorigin="anonymous">
+</script>
+
+<script>
+ $(window).scroll(function() {   
+   if(($(window).scrollTop() + $(window).height()) >= $(document).height() - 100) {
+       $("#share-links").fadeIn(3000);
+       $("#linkedin").fadeIn(3500);
+       $("#github").fadeIn(4000);
+   }
+});
 </script>
 
 <!-- Importing BootStrap Library for usage -->

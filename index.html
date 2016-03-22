@@ -13,11 +13,15 @@
 </script>
 
 <script>
+$(document).ready(function () {
+    $("#welcome-msg").fadeIn(2000);
+});
+
  $(window).scroll(function() {   
    if(($(window).scrollTop() + $(window).height()) >= $(document).height() - 100) {
-       $("#share-links").fadeIn(3000);
-       $("#linkedin").fadeIn(3500);
-       $("#github").fadeIn(4000);
+       $("#share-links").fadeIn(2000);
+       $("#linkedin").fadeIn(2500);
+       $("#github").fadeIn(3000);
    }
 });
 </script>

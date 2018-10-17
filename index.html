@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 <head>
 
-<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <!-- Importing JQuery Library for usage -->
@@ -17,7 +17,7 @@ $(document).ready(function () {
     $("#welcome-msg").fadeIn(2000);
 });
 
- $(window).scroll(function() {   
+ $(window).scroll(function() {
    if(($(window).scrollTop() + $(window).height()) >= $(document).height() - 100) {
        $("#share-links").fadeIn(2000);
        $("#linkedin").fadeIn(2500);
@@ -46,7 +46,7 @@ $(document).ready(function () {
 		<h1 class="row text-center my-font-white">This is Shivam's Website</h1>
 		<h2 class="text-center my-font-white">However... it is currently under construction. Feel free to visit the following links</h2>
 	</div>
-	
+
 	<div class="row">
 		<h3 id="linkedin" class="row text-center my-font-white" style="display: none;"><a class="link-fwhite" target="_blank" href="https://www.linkedin.com/in/shivamndave">LinkedIn</a></h3>
 		<h3 id="github" class="row text-center my-font-white" style="display: none;"><a class="link-fwhite" target="_blank" href="https://github.com/shivamndave/">GitHub</a></h3>

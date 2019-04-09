@@ -2,56 +2,42 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 <head>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/main.js"></script>
 </head>
 
-<!-- Importing JQuery Library for usage -->
-<script src="https://code.jquery.com/jquery-1.12.2.min.js"
-		integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="
-		crossorigin="anonymous">
-</script>
-
-<script>
-$(document).ready(function () {
-    $("#welcome-msg").fadeIn(2000);
-});
-
- $(window).scroll(function() {
-   if(($(window).scrollTop() + $(window).height()) >= $(document).height() - 100) {
-       $("#share-links").fadeIn(2000);
-       $("#linkedin").fadeIn(2500);
-       $("#github").fadeIn(3000);
-   }
-});
-</script>
-
-<!-- Importing BootStrap Library for usage -->
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <body>
-
-<div class="row whole-plate-centered">
-	<h1 id="welcome-msg" class="row text-center my-font" style="display: none;">Welcome</h1>
-</div>
-
-<div class="row whole-plate-centered black-pl">
-	<div id="share-links" class="row" style="display: none;">
-		<h1 class="row text-center my-font-white">This is Shivam's Website</h1>
-		<h2 class="text-center my-font-white">However... it is currently under construction. Feel free to visit the following links</h2>
-	</div>
-
-	<div class="row">
-		<h3 id="linkedin" class="row text-center my-font-white" style="display: none;"><a class="link-fwhite" target="_blank" href="https://www.linkedin.com/in/shivamndave">LinkedIn</a></h3>
-		<h3 id="github" class="row text-center my-font-white" style="display: none;"><a class="link-fwhite" target="_blank" href="https://github.com/shivamndave/">GitHub</a></h3>
-	</div>
-</div>
-
+	<nav class="navbar" role="navigation"  aria-label="main navigation">
+		<div class="navbar-brand has-background-black">
+			<div class="navbar-item has-text-white">
+				<figure class="image is-32x32">
+					<img class="is-rounded" src="public/images/8016166.jpeg">
+				</figure>
+				<!-- Shivam Dave -->
+			</div>
+			<a class="navbar-item is-hidden-desktop" href="https://github.com/shivamndave" target="_blank">
+				<img src="public/images/GitHub-Mark-Light-32px.png"/>
+			</a>
+			<a role="button" class="navbar-burger burger has-text-white" aria-label="menu" aria-expanded="false" data-target="mainNavbar">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+		<div id="mainNavbar" class="navbar-menu">
+			<div class="navbar-start">
+				<a class="navbar-item">About</a>
+				<a class="navbar-item">About 2</a>
+			</div>
+			<div class="navbar-end">
+				
+			</div>
+				
+		</div>
+	</nav>
 </body>
 </html>

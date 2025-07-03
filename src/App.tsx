@@ -30,11 +30,7 @@ const Nav = () => {
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-            <img
-              alt=""
-              src="./src/assets/img_1.JPG"
-              className="size-8 rounded-full"
-            />
+            <img alt="" src="/img_1.JPG" className="size-8 rounded-full" />
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
             {/* Mobile menu button*/}
@@ -54,11 +50,7 @@ const Nav = () => {
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                <img
-                  alt=""
-                  src="./src/assets/img_1.JPG"
-                  className="size-8 rounded-full"
-                />
+                <img alt="" src="/img_1.JPG" className="size-8 rounded-full" />
                 {navigation.map((item) => (
                   <a
                     key={item.name}
@@ -122,21 +114,9 @@ function App() {
               <br />
               Full stack software engineer
             </h1>
-            <img
-              alt=""
-              src="./src/assets/img_1.JPG"
-              className="size-24 rounded-full"
-            />
-            <img
-              alt=""
-              src="./src/assets/img_2.JPG"
-              className="size-24 rounded-full"
-            />
-            <img
-              alt=""
-              src="./src/assets/img_3.JPG"
-              className="size-24 rounded-full"
-            />
+            <img alt="" src="/img_1.JPG" className="size-24 rounded-full" />
+            <img alt="" src="/img_2.JPG" className="size-24 rounded-full" />
+            <img alt="" src="/img_3.JPG" className="size-24 rounded-full" />
           </div>
           <p className="text-white text-center mb-6 sm:w-120">
             Please use the links in the navigation bar for more information

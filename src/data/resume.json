@@ -1,0 +1,71 @@
+{
+  "name": "Shivam Dave",
+  "title": "Full Stack Software Engineer",
+  "summary": "Experienced full stack software engineer with a passion for building scalable web applications. Placeholder summary - update with your own bio.",
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "Company Name",
+      "role": "Senior Software Engineer",
+      "location": "City, State",
+      "startDate": "2022",
+      "endDate": "Present",
+      "description": "Placeholder description of your role and achievements. Update with your actual experience.",
+      "highlights": [
+        "Placeholder highlight 1",
+        "Placeholder highlight 2",
+        "Placeholder highlight 3"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "company": "Previous Company",
+      "role": "Software Engineer",
+      "location": "City, State",
+      "startDate": "2020",
+      "endDate": "2022",
+      "description": "Placeholder description of your previous role.",
+      "highlights": [
+        "Placeholder highlight 1",
+        "Placeholder highlight 2"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "University Name",
+      "degree": "Bachelor of Science in Computer Science",
+      "location": "City, State",
+      "startDate": "2016",
+      "endDate": "2020",
+      "description": "Placeholder - add any relevant coursework, honors, or activities."
+    }
+  ],
+  "skills": {
+    "languages": ["JavaScript", "TypeScript", "Python", "Java"],
+    "frontend": ["React", "Vue", "HTML", "CSS", "Tailwind"],
+    "backend": ["Node.js", "Express", "Django", "Spring"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis"],
+    "tools": ["Git", "Docker", "AWS", "CI/CD"]
+  },
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "Project Name",
+      "description": "Placeholder project description. Update with your actual projects.",
+      "technologies": ["React", "Node.js", "PostgreSQL"],
+      "url": "",
+      "github": ""
+    }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/shivamndave",
+    "github": "https://github.com/shivamndave",
+    "blog": "",
+    "portfolio": ""
+  },
+  "images": {
+    "profile": ["/img_1.JPG", "/img_2.JPG", "/img_3.JPG"]
+  }
+}

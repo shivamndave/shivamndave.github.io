@@ -2,10 +2,8 @@ import Section from "./Section";
 
 interface Skills {
   languages: string[];
-  frontend: string[];
-  backend: string[];
-  databases: string[];
-  tools: string[];
+  tooling: string[];
+  frameworks: string[];
 }
 
 interface SkillsSectionProps {
@@ -39,10 +37,8 @@ const SkillsSection = ({ skills }: SkillsSectionProps) => {
     <Section title="Skills" id="skills">
       <div className="space-y-4">
         <SkillCategory title="Languages" items={skills.languages} />
-        <SkillCategory title="Frontend" items={skills.frontend} />
-        <SkillCategory title="Backend" items={skills.backend} />
-        <SkillCategory title="Databases" items={skills.databases} />
-        <SkillCategory title="Tools & Infrastructure" items={skills.tools} />
+        <SkillCategory title="Tools & Infrastructure" items={skills.tooling} />
+        <SkillCategory title="Frameworks" items={skills.frameworks} />
       </div>
     </Section>
   );

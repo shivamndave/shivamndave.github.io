@@ -1,64 +1,107 @@
 {
   "name": "Shivam Dave",
   "title": "Full Stack Software Engineer",
-  "summary": "Experienced full stack software engineer with a passion for building scalable web applications. Placeholder summary - update with your own bio.",
+  "summary": "Software engineer with 10 years of experience building scalable distributed systems. Demonstrates technical leadership by scoping application requirements across a team of 9 engineers. Experience in implementing large scale backend infrastructures, full-stack web applications, and RESTful APIs using React, Node.js, Java and SQL.",
   "experience": [
     {
-      "id": "exp-1",
-      "company": "Company Name",
-      "role": "Senior Software Engineer",
-      "location": "City, State",
-      "startDate": "2022",
+      "id": "exp-0",
+      "company": "Whatnot",
+      "role": "Software Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "01/2026",
       "endDate": "Present",
-      "description": "Placeholder description of your role and achievements. Update with your actual experience.",
+      "description": "",
+      "highlights": []
+    },
+    {
+      "id": "exp-1",
+      "company": "Disney Streaming",
+      "role": "Lead Software Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "10/2020",
+      "endDate": "12/2025",
+      "description": "",
       "highlights": [
-        "Placeholder highlight 1",
-        "Placeholder highlight 2",
-        "Placeholder highlight 3"
+        "Independently led technical direction across a team of 9 engineers by architecting solutions based on engineering requirements, coaching team members, and implementing testing frameworks. Collaborated with 20+ cross-functional partners (PMs, TPMs, Business Operations) to build product-centric solutions.",
+        "Developed the first unified pricing system for Disney+ offerings that integrated 6+ cross-team relational databases and RESTful APIs. Merged and unified infrastructure across Disney+, ESPN, and Hulu.",
+        "Architected and implemented pricing tool feature for Finance and Accounting teams to flexibly manage thousands of new global prices and bundles. Abstracted complex calculations from Finance members and enabled global Disney+ launches across millions of users. Proactively improved pricing validation of Accounting inputs, leading to accurate billing statements, faster launches, and improved stability.",
+        "Coordinated the development of a self-serve user segmentation tool for Business Operations to easily message millions of users, reducing hundreds of hours of business operator workload.",
+        "Boosted developer productivity, optimized app performance, and scaled production deployment processes by building a GraphQL API and implementing data editing automation, entity cloning, and export features."
       ]
     },
     {
       "id": "exp-2",
-      "company": "Previous Company",
+      "company": "Ancestry",
       "role": "Software Engineer",
-      "location": "City, State",
-      "startDate": "2020",
-      "endDate": "2022",
-      "description": "Placeholder description of your previous role.",
+      "location": "San Francisco, CA",
+      "startDate": "10/2018",
+      "endDate": "10/2020",
+      "description": "",
       "highlights": [
-        "Placeholder highlight 1",
-        "Placeholder highlight 2"
+        "Developed new search filtering features using Node.js, React, Redux, and React Testing Library, which proactively resolved issues and improved success rates of users finding relevant family history data.",
+        "Collaborated with services and engine teams to plan, develop, and test the optimal search results visualization visited by thousands of users per second, ensuring cross-browser support and accessibility.",
+        "Worked with Analytics and Data Engineering teams to implement A/B tests on JavaScript applications to iteratively roadmap, develop, and release projects based on user feedback."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "company": "Sonoma Technology Inc.",
+      "role": "Software Engineer",
+      "location": "Petaluma, CA",
+      "startDate": "12/2016",
+      "endDate": "10/2018",
+      "description": "",
+      "highlights": [
+        "Implemented a Java alerting system that managed thousands of data points related to active subscribers, alert history, and custom admin responses, to send email notifications based on unhealthy pollutant levels.",
+        "Constructed offline data collection capabilities using service workers and constructed dashboard features.",
+        "Coordinated with product managers, designers, scientists, and engineers to build the EPA's current air quality website: airnow.gov, enabling content management and emergency alerts using PHP and JavaScript."
       ]
     }
   ],
   "education": [
     {
       "id": "edu-1",
-      "institution": "University Name",
-      "degree": "Bachelor of Science in Computer Science",
-      "location": "City, State",
-      "startDate": "2016",
-      "endDate": "2020",
-      "description": "Placeholder - add any relevant coursework, honors, or activities."
+      "institution": "University of California, Santa Cruz",
+      "degree": "B.S. Computer Science",
+      "location": "",
+      "startDate": "",
+      "endDate": "June 2016",
+      "description": ""
     }
   ],
   "skills": {
-    "languages": ["JavaScript", "TypeScript", "Python", "Java"],
-    "frontend": ["React", "Vue", "HTML", "CSS", "Tailwind"],
-    "backend": ["Node.js", "Express", "Django", "Spring"],
-    "databases": ["PostgreSQL", "MongoDB", "Redis"],
-    "tools": ["Git", "Docker", "AWS", "CI/CD"]
+    "languages": [
+      "Typescript",
+      "Javascript",
+      "Python",
+      "Java",
+      "SQL (PostgreSQL, MySQL)",
+      "HTML/CSS"
+    ],
+    "tooling": [
+      "Node.js",
+      "Docker",
+      "Kubernetes",
+      "AWS EC2/S3/SQS",
+      "Vite",
+      "Vitest",
+      "Spinnaker",
+      "Jenkins",
+      "Terraform",
+      "Git"
+    ],
+    "frameworks": [
+      "React",
+      "Express.js",
+      "Apollo GraphQL",
+      "Material UI",
+      "TailwindCSS",
+      "Redux",
+      "D3.js",
+      "Spring Boot"
+    ]
   },
-  "projects": [
-    {
-      "id": "proj-1",
-      "name": "Project Name",
-      "description": "Placeholder project description. Update with your actual projects.",
-      "technologies": ["React", "Node.js", "PostgreSQL"],
-      "url": "",
-      "github": ""
-    }
-  ],
+  "projects": [],
   "links": {
     "linkedin": "https://www.linkedin.com/in/shivamndave",
     "github": "https://github.com/shivamndave",

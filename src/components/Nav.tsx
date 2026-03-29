@@ -61,7 +61,7 @@ const Nav = () => {
                       item.current
                         ? "bg-gray-900 text-white"
                         : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                      "rounded-md px-3 py-2 text-sm font-medium"
+                      "rounded-md px-3 py-2 text-sm font-medium",
                     )}
                   >
                     {item.name}
@@ -85,7 +85,7 @@ const Nav = () => {
                 item.current
                   ? "bg-gray-900 text-white"
                   : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                "block rounded-md px-3 py-2 text-base font-medium"
+                "block rounded-md px-3 py-2 text-base font-medium",
               )}
             >
               {item.name}
@@ -97,35 +97,4 @@ const Nav = () => {
   );
 };
 
-function App() {
-  return (
-    <>
-      <Nav />
-      <div>
-        <main className="flex min-h-screen flex-col items-center pt-28 bg-stone-900 p-4">
-          <h1 className="text-2xl font-bold text-white mb-4 text-center mt-4 md:hidden block">
-            Hello, I am Shivam Dave
-            <br />
-            Full stack software engineer
-          </h1>
-          <div className="flex space-x-4 mb-4">
-            <h1 className="text-2xl font-bold text-white mb-4 text-right mt-4 hidden md:block">
-              Hello, I am Shivam Dave
-              <br />
-              Full stack software engineer
-            </h1>
-            <img alt="" src="/img_1.JPG" className="size-24 rounded-full" />
-            <img alt="" src="/img_2.JPG" className="size-24 rounded-full" />
-            <img alt="" src="/img_3.JPG" className="size-24 rounded-full" />
-          </div>
-          <p className="text-white text-center mb-6 sm:w-120">
-            Please use the links in the navigation bar for more information
-            about me. Currently this site is under development :)
-          </p>
-        </main>
-      </div>
-    </>
-  );
-}
-
-export default App;
+export default Nav;
